@@ -3,8 +3,8 @@
 # About_me_1
 
 ## Links to my Repository
-- [Source repository]()
-- [github link]()
+- [Source repository](https://saigorla.github.io/about-me/)
+- [github link](https://github.com/SaiGorla/about-me)
 
 ## About
 
