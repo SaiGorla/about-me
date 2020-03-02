@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>String Checker</title>
+  <link rel= "stylesheet" href="new.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.3/vue.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+<h2>String Checker</h2>
+<div id="PakaApp">
+  <div class="row">
+    <div class="col-md-3">
+      <h1 class='text-default'><span>Add a Message</span> <em class="text-light"></em></h1>
+      <textarea class="form-control" v-on:keyup="displayLiveCDown" v-model="CourseName" placeholder="Add the text Here......"></textarea>
+      <p class='form-control text-large' v-bind:class="{'text-danger': displayError }">{{RemainCountTotal}}</p>
+    </div>
+  </div>
+</div>
+<script src ="text.js"> 
+</script>
+</body>
+</html>

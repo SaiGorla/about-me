@@ -1,0 +1,21 @@
+body{
+   background-color:purple; 
+   font-style: oblique; 
+}
+
+textarea{
+    
+        width: 100%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #3CBC8D;
+        resize: none;
+      
+}
+p{
+    border: 2px solid greenyellow;
+  border-radius: 4px;
+}
